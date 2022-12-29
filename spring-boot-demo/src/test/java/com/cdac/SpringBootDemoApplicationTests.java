@@ -21,8 +21,8 @@ class SpringBootDemoApplicationTests {
 		f.setCarrier("Vistara");
 		f.setSource("Mumbai");
 		f.setDestination("Delhi");
-		f.setDepartureTime(LocalTime.of(13, 40));
-		f.setArrivalTime(LocalTime.of(15, 40));
+		f.setDepartureTime("13:40");
+		f.setArrivalTime("15:40");
 		
 		flightRepository.save(f);
 	}
